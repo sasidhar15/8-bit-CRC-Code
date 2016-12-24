@@ -23,7 +23,6 @@ main()
 	scanf("%x",&quodata);
 	tempdata[sizeof(inputdata)] = quodata;
 	printf("inputdata = %s\n checksum = %x\n",inputdata,quodata);
-//	printf("tempdata = %x\n",tempdata[sizeof(inputdata)]);
 	quodata = tempdata[0];
 	tempkey = dividekey;
 	
