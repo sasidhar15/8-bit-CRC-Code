@@ -18,11 +18,9 @@ main()
 	
 	printf("Enter Inputdata : ");
 	scanf("%[^\n]s",inputdata);
-//	strcpy(inputdata,"SASI");
 	strcpy(tempdata,inputdata);
 	tempdata[sizeof(inputdata)] = quodata;
-//	tempdata[sizeof(inputdata)] = 0x88;
-	printf("inputdata = %s\ntempdata = %s\n",inputdata,tempdata);
+//	printf("inputdata = %s\ntempdata = %s\n",inputdata,tempdata);
 //	printf("tempdata = %x\n",tempdata[sizeof(inputdata)]);
 	quodata = tempdata[0];
 	tempkey = dividekey;
