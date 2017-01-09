@@ -31,7 +31,7 @@ main()
 		if(count == -1)
 		count = 7;
 
-		if((quodata >> j) ^ (tempkey >> j))
+		if(((quodata >> 7) ^ (tempkey >> 7)) & 1)
 		{
 			for(j=7;j>=0;j--)
 			{
